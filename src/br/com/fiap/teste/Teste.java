@@ -21,7 +21,6 @@ public class Teste {
 		jose.setTelefone("11912123434");
 		dao.insert(jose);
 		
-		//1.2) INSERT
 		Usuario iara = new Usuario();
 		iara.setId(2);
 		iara.setNome("Iara");
@@ -30,7 +29,6 @@ public class Teste {
 		iara.setTelefone("11937373737");
 		dao.insert(iara);
 		
-		//1.3) INSERT
 		Usuario zac = new Usuario();
 		zac.setId(3);
 		zac.setNome("Zac");
@@ -54,7 +52,6 @@ public class Teste {
 		dao.delete(1);
 		
 		//4) UPDATE
-	
 		zac.setId(4);
 		zac.setNome("Zaque");
 		zac.setEmail("zac@gmail.com");
@@ -62,11 +59,5 @@ public class Teste {
 		zac.setTelefone("11932323232");
 		dao.update(zac);  
 		
-		
-	
-
-		
-	}
-	
-	
+	}	
 }
